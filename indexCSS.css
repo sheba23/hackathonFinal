@@ -1,0 +1,106 @@
+html
+{
+	background-color: CadetBlue;
+	background-image: url("cloud.jpg");
+	height:100%;
+	width:100%;
+	background-size: cover;
+}
+body
+{
+	text-align: center;
+}
+#statsContainer
+{
+	text-align: center;
+	display: inline-block;
+	color: white;
+}
+
+#health, #happiness, #welfare
+{
+	font: 20pt calibri;
+	border: 1px double white;
+	border-radius: 5px;
+}
+#health
+{
+	margin-right:6vw;
+	background-color: red;
+}
+#welfare
+{
+	background-color: green;
+}
+#happiness
+{
+	margin-left:6vw;
+	background-color: blue;
+}
+
+#phraseContainer
+{
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+#displayContainer
+{
+	text-align: center;
+	width: 40vw;
+}
+
+img
+{
+	height: 75vh;
+	width: 40vw;
+	border-radius:25px;
+	border: 2px solid white;
+}
+
+#yesChoice, #noChoice
+{
+	position: absolute;
+	border: 1px solid black;
+	font-size: 50pt;
+	top: 40vh;
+	background-color: grey;
+	color: white;
+	border-color: white;
+}
+
+#phraseDisplay
+{
+	display: block;
+	font: 20pt calibri;
+	border-radius:5px;
+	color: white;
+}
+
+#yesChoice:hover, #noChoice:hover
+{
+	cursor: pointer;
+	background-color: black;
+}
+
+#yesChoice
+{
+	left: 21vw;
+}
+#noChoice
+{
+	left: 71.5vw;
+}
+
+#winOrLose
+{
+	border: 2px solid black;
+	font: 30pt calibri;
+	background-color:#df9fdf;
+	display: none;
+	position: absolute;
+	width: 50vw;
+	left:25vw;
+	top: 35vh;
+	z-index: 1;
+}
